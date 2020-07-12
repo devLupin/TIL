@@ -1,0 +1,26 @@
+# stories.md 에서 정의한 정책에 대한 의도, 조치 및 응답을 추가함.
+
+# NLU 측을 정의 했을 경우 Core에서 변경사항을 인식하도록 의도를 추가해야함.
+
+
+intents:
+  - greet
+  - bye
+  - thank
+  - faq
+
+
+responses:
+  utter_noworries:
+    - text: No worries!
+  utter_greet:
+    - text: Hi
+  utter_bye:
+    - text: Bye!
+
+
+## ResponseSelector에서 예상한 응답을 사용자에게 다시 전송하는 검색 조치를 추가해야함.
+## 위와 같은 작업의 접두사는 항상 respond_임.
+
+actions:
+  - respond_faq
