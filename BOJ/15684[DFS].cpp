@@ -5,6 +5,7 @@ using namespace std;
 const int INF = 0x3f3f3f;
 int n, m, h, a, b, ret = INF, visited[34][34];
 
+// 매우 아름다운 탐색법 check().
 bool check() {
     for (int i = 1; i <= n; i++) {
         int start = i;
