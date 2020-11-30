@@ -9,9 +9,9 @@
 Starting Project : 2020.07.09
 
 
-✨ **numpy**
+## ✨ **numpy**
 
-## numpy 배열 생성
+### numpy 배열 생성
 
     ```python
     import numpy as np
@@ -20,3 +20,4 @@ Starting Project : 2020.07.09
     ```
 
 배열을 생성할 때는 np.array() 메서드를 이용
+
