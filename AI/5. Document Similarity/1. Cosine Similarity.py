@@ -73,6 +73,6 @@ def get_recommendations(title, cosine_sim=cosine_sim) :
     
     movie_indices = [i[0] for i in sim_scores]
     
-    return data['title'].iloc[movie_indices]
+    return data['title'].iloc[movie_indices]    # 행을 추출하는데 숫자 계열이 아닌 가상 인덱스 위치를 사용하여 행 추출
 
 print(get_recommendations('The Dark Knight Rises'))
