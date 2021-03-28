@@ -1,0 +1,9 @@
+*.pyc
+*.pptx
+.DS_Store
+*.tar.gz
+env/*
+result/*
+__pycache__/*
+20170512-110547/*
+20170512-110547.zip
