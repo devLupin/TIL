@@ -86,7 +86,7 @@ qtconsole==5.3.1
 QtPy==2.1.0
 resampy==0.3.0
 scikit-learn==1.1.1
-scipy==1.8.1
+scipy==1.10.0
 seaborn==0.11.2
 Send2Trash==1.8.0
 SoundFile==0.10.3.post1
